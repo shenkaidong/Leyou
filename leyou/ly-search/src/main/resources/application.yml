@@ -1,0 +1,28 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: search-service
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.84.129:9300
+  rabbitmq: #事件rabbitmq 消息接收方就不用写template了
+    host: 192.168.84.129
+    username: leyou
+    password: leyou
+    virtual-host: /leyou #配置虚拟机名称，需要去MQ页面先创建
+  jackson:
+    default-property-inclusion: non_null #不允许结果是null的返回，也就是不显示null的值，配合elasticsearch使用
+  main:
+    #Feign的注册，有同名的feign的名字重复注册，相同的name也就是跨服务调用，同一个服务的接口，不能分散的写在多个接口类中.
+    #要放到同一个借口类中定义调用。这里true允许重复注册
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5 #5秒拉取
+  instance: #使用真实地址，而不是计算机名字什么的
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
