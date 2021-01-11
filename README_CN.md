@@ -113,4 +113,4 @@ $ standard-readme-spec
 
 ## 使用许可
 
-[Kaidong Shen](LICENSE) © Kaidong Shen
+[KS](LICENSE) © Kaidong Shen
