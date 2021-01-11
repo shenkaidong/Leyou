@@ -1,8 +1,9 @@
 # 乐优商城 Readme
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](http://www.itheima.com/)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://www.boxuegu.com/)
+[![standard-readme compliant](https://img.shields.io/badge/itheima%20官网-黑马程序员-brightgreen.svg?style=flat-square)](http://www.itheima.com/)
+[![standard-readme compliant](https://img.shields.io/badge/boxuegu%20官网-博学谷-brightgreen.svg?style=flat-square)](https://www.boxuegu.com/)
+
 乐优商城介绍
 
 乐优商城是一个微服务项目. 本项目来自bilibili黑马程序员网络免费资源. 更多资料请访问黑马程序员官方主页和博学谷. 本人通过网上的教程, 学校微服务系统中, 所用到的如Springboot, SpringCloud, Redis, Elasticsearch, Nginx等技术.
