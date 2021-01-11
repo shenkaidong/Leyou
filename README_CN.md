@@ -113,4 +113,4 @@ $ standard-readme-spec
 
 ## 使用许可
 
-[NEU](LICENSE) © Kaidong Shen
+[itheima](LICENSE) © Kaidong Shen
