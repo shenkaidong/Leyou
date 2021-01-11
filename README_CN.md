@@ -1,6 +1,6 @@
 # 微服务商城项目 Readme
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20leyou-microservice-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou)
+[![standard-readme compliant](https://img.shields.io/badge/leyou%20springboot-microservice-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou)
 [![standard-readme compliant](https://img.shields.io/badge/itheima%20官网-黑马程序员-brightgreen.svg?style=flat-square)](http://www.itheima.com/)
 [![standard-readme compliant](https://img.shields.io/badge/boxuegu%20官网-博学谷-brightgreen.svg?style=flat-square)](https://www.boxuegu.com/)
 
