@@ -113,4 +113,4 @@ $ standard-readme-spec
 
 ## 使用许可
 
-[MIT](LICENSE) © Richard Littauer
+[NEU](LICENSE) © Kaidong Shen
