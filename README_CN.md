@@ -6,7 +6,7 @@
 
 微服务商城项目介绍
 
-微服务商城项目. 本项目来自bilibili黑马程序员网络免费资源, 乐优商城. 更多资料请访问黑马程序员官方主页和博学谷. 本人通过网上的教程, 学校微服务系统中, 所用到的如Springboot, SpringCloud, Redis, Elasticsearch, Nginx等技术.
+微服务商城项目. 本项目来自bilibili黑马程序员网络免费资源, 乐优商城虎哥MAC版, 中间需要使用虚拟机. 更多资料请访问黑马程序员官方主页和博学谷. 本人通过网上的教程, 学校微服务系统中, 所用到的如Springboot, SpringCloud, Redis, Elasticsearch, Nginx等技术.
 
 本仓库包含以下内容：
 
@@ -93,8 +93,10 @@ $ standard-readme-spec
 
 ## 相关仓库
 
-- [Art of Readme](https://github.com/noffle/art-of-readme) — 💌 写高质量 README 的艺术。
-- [open-source-template](https://github.com/davidbgk/open-source-template/) — 一个鼓励参与开源的 README 模板。
+- [黑马程序员](https://github.com/itheima1) — 💌 黑马程序员github。
+- [乐优商城项目后台](https://github.com/lyj8330328/leyou) — 乐优商城项目后台-一个非常齐全的版本, 但与本版本有些许不同。
+- [乐优商城项目后台与技术解读](https://github.com/Yirito/leyou) — 乐优商城项目技术解读-另一个非常齐全的版本, 但与本版本有些许不同。
+- [乐优商城项目笔记](https://shidongxu0312.github.io/2019/11/20/%E4%B9%90%E4%BC%98%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE/) — 乐优商城项目笔记-一个非常齐全的版本,但与本版本有些许不同。
 
 ## 维护者
 
@@ -109,7 +111,7 @@ $ standard-readme-spec
 ### 贡献者
 
 感谢以下参与项目的人：
-<a href="graphs/contributors"><img src="https://opencollective.com/contributors.svg?width=890&button=false" /></a>
+[@Kaidong Shen](https://github.com/KaidongShen)。
 
 
 ## 使用许可
