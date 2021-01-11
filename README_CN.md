@@ -6,7 +6,7 @@
 
 微服务商城项目介绍
 
-微服务商城项目. 本项目来自bilibili黑马程序员网络免费资源, 乐优商城虎哥MAC版, 中间需要使用虚拟机. 更多资料请访问黑马程序员官方主页和博学谷. 本人通过网上的教程, 学校微服务系统中, 所用到的如Springboot, SpringCloud, Redis, Elasticsearch, Nginx等技术.
+微服务商城项目. 本项目来自bilibili黑马程序员网络免费资源, 乐优商城虎哥MAC版, 中间需要使用虚拟机. 更多资料请访问黑马程序员官方主页和博学谷. 本人通过网上的教程, 学习微服务系统中, 所用到的如Springboot, SpringCloud, Redis, Elasticsearch, Nginx等技术.
 
 本仓库包含以下内容：
 
@@ -34,7 +34,10 @@
 
 ## 背景
 
-`标准 Readme` 最开始因为 [@maxogden](https://github.com/maxogden) 在项目 [feross/standard](https://github.com/feross/standard) 的[这个 Issue](https://github.com/feross/standard/issues/141) 中提出，是否标准化 README 会有助于帮助大家。很多人在仓库 [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) 就这个想法进行了讨论。在我维护仓库 [IPFS](https://github.com/ipfs) 的时候，我需要在这个组织中推广标准化的 Readme，因此这个项目也就从这开始了。
+
+`乐优商城` 最开始是从B站上看到的一个微服务项目. 网上资料很多, 所以开始着手学习. 但是在学习中发现非常多的不便. 首先网上版本众多, 有的版本需要用到虚拟机, 有的版本只用windows系统. 并且笔记和视频不配套. 比如在写商品详情页的时候. 碰到了很多意想不到的问题. 商品详情页的前端代码与视频中差别很大, 网上能找到的版本中还有报错. 各种软件都需要自己部署在Linux系统中, 比如在安装Redis的时候, 由于CentOS6.4已经停止维护, 镜像文件不能使用, Elasticsearch在安装中, 需要更新CentOS中的Java版本等问题.
+
+即便有诸多问题, 但是我还是受益颇多. 这是我第一个微服务项目, 我会在这个目录下, 补充完整我的代码, 以及在项目中添加注释. 未来还会补充关于此项目的笔记以及我自己对这个项目的一些看法.
 
 > 如果你的文档是完整的，那么使用你代码的人就不用再去看代码了。这非常的重要。它使得你可以分离接口文档与具体实现。它意味着你可修改实现的代码而保持接口与文档不变。
 
