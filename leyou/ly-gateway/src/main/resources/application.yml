@@ -13,6 +13,7 @@ zuul:
   routes:
     item-service: /item/**
     search-service: /search/**
+    user-service: /user/**
     upload-service:
       path: /upload/**
       serviceId: upload-service
@@ -29,3 +30,4 @@ ribbon:
   ReadTimeout: 3500 # ribbon读取超时时长
   MaxAutoRetries: 0 #当前服务重试次数
   MaxAutoRetriesNextServer: 0 #切换服务重试次数
+

@@ -24,6 +24,8 @@ public enum ExceptionEnum {
     GOODS_UPDATE_ERROR(500,"商品更新失败"),
     GOODS_ID_CANNOT_BE_NULL(404,"商品id不能为空"),
     INVALID_FILE_TYPE(400, "无效的文件类型"),
+    INVALID_USER_DATA_TYPE(400,"无效的用户数据类型"),
+    INVALID_VERIFY_CODE(400,"无效的验证码")
     //相当于对象, private static final ExceptionEnums ff = new ExceptionEnums(500."价格不能为空");
     //枚举, 是指具有固定实例个数的类(对象是提前创建好的, 默认都是私有的,别人不许用, 只允许自己用)
     //最后一个对象后面, 一定要跟上一个分号. 而且枚举必须定义在这个类的最前面, 在他之前不能有其他的东西了.
