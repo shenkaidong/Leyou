@@ -11,13 +11,16 @@ eureka:
 zuul:
   prefix: /api # 路由路径前缀
   routes:
-    item-service: /item/**
-    search-service: /search/**
-    user-service: /user/**
+    item-service: /item/** # 商品微服务的映射路径
+    search-service: /search/** # 搜索微服务
+    user-service: /user/** # 用户微服务
+    auth-service: /auth/** # 授权中心微服务
     upload-service:
       path: /upload/**
       serviceId: upload-service
       strip-prefix: false
+  add-host-header: true
+  sensitive-headers: # 添加host头信息
 hystrix:
   command:
     default:
