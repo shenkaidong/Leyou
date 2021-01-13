@@ -11,7 +11,6 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
-import org.springframework.util.DigestUtils;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -81,5 +80,22 @@ public class UserService {
         // 写入数据库
         user.setCreated(new Date());
         userMapper.insert(user);
+    }
+
+    public User queryUserByUsernameAndPassword(String username, String password) {
+        // 查询用户
+        User record = new User();
+        record.setUsername(username);
+        User user = userMapper.selectOne(record);
+        // 校验
+        if (user==null) {
+            throw new LyException(ExceptionEnum.INVALID_USERNAME_PASSWORD);
+        }
+        // 校验密码, 这样写代码的可读性强, 避免if和else嵌套
+        if (!StringUtils.equals(user.getPassword(), CodecUtils.md5Hex(password,user.getSalt()))) {
+            throw new LyException(ExceptionEnum.INVALID_USERNAME_PASSWORD);
+        }
+        // 用户名和密码正确
+        return user;
     }
 }

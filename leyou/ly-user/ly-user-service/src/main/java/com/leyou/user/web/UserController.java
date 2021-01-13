@@ -50,4 +50,12 @@ public class UserController {
             // 没有返回值, 不需要写Body, 所以直接build
             return ResponseEntity.status(HttpStatus.CREATED).build();
         }
+
+        @GetMapping("/query")
+        public ResponseEntity<User> queryUserByUsernameAndPassword(
+                @RequestParam("username") String username,
+                @RequestParam("password") String password
+        ){
+            return ResponseEntity.ok(userService.queryUserByUsernameAndPassword(username,password));
+        }
 }
