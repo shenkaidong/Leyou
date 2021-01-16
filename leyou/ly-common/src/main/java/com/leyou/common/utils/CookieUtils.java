@@ -1,4 +1,4 @@
-package com.leyou.common.utlis;
+package com.leyou.common.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

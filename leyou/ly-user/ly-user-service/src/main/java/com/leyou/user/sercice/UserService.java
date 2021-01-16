@@ -2,7 +2,7 @@ package com.leyou.user.sercice;
 
 import com.leyou.common.enums.ExceptionEnum;
 import com.leyou.common.exception.LyException;
-import com.leyou.common.utlis.NumberUtils;
+import com.leyou.common.utils.NumberUtils;
 import com.leyou.user.mapper.UserMapper;
 import com.leyou.user.pojo.User;
 import com.leyou.user.utils.CodecUtils;

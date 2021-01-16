@@ -27,11 +27,23 @@ public enum ExceptionEnum {
     INVALID_USER_DATA_TYPE(400,"无效的用户数据类型"),
     INVALID_VERIFY_CODE(400,"无效的验证码"),
     INVALID_USERNAME_PASSWORD(400,"无效的用户名或密码"),
-    CREATE_TOKEN_ERROR(500,"用户凭证生成失败")
+    CREATE_TOKEN_ERROR(500,"用户凭证生成失败"),
+    UNAUTHORIZED(403,"未授权"),
+    CART_NOT_FOUND(404,"购物车未找到"),
+    WX_PAY_ORDER_FAIL(404,"购物车未找到"),
+    INVALID_SIGN_ERROR(404,"购物车未找到"),
+    INVALID_ORDER_PARAM(404,"购物车未找到"),
+    UPDATE_ORDER_STATUS_ERROR(404,"购物车未找到"),
+    CREATE_ORDER_ERROR(500,"创建订单失败"),
+    ORDER_NOT_FOUND(404,"购物车未找到"),
+    ORDER_DETAIL_NOT_FOUND(404,"购物车未找到"),
+    ORDER_STATUS_NOT_FOUND(404,"购物车未找到"),
+    ORDER_STATUS_ERROR(404,"购物车未找到");
+
     //相当于对象, private static final ExceptionEnums ff = new ExceptionEnums(500."价格不能为空");
     //枚举, 是指具有固定实例个数的类(对象是提前创建好的, 默认都是私有的,别人不许用, 只允许自己用)
     //最后一个对象后面, 一定要跟上一个分号. 而且枚举必须定义在这个类的最前面, 在他之前不能有其他的东西了.
-    ;
+
     private int code;
     private String msg;
 }
