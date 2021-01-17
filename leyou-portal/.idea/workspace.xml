@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="edd1cc40-540c-4382-9604-6e1d208b552d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../leyou/ly-sms/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../leyou/ly-sms/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../leyou/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" afterPath="$PROJECT_DIR$/../leyou/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -374,12 +374,12 @@
       <workItem from="1610520311559" duration="10399000" />
       <workItem from="1610672578277" duration="8516000" />
       <workItem from="1610822037471" duration="2368000" />
-      <workItem from="1610842114608" duration="216000" />
+      <workItem from="1610842114608" duration="740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71325000" />
+    <option name="totallyTimeSpent" value="71849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />

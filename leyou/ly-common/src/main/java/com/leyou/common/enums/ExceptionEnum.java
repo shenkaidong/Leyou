@@ -30,18 +30,18 @@ public enum ExceptionEnum {
     CREATE_TOKEN_ERROR(500,"用户凭证生成失败"),
     UNAUTHORIZED(403,"未授权"),
     CART_NOT_FOUND(404,"购物车未找到"),
-    WX_PAY_ORDER_FAIL(404,"购物车未找到"),
-    INVALID_SIGN_ERROR(404,"购物车未找到"),
-    INVALID_ORDER_PARAM(404,"购物车未找到"),
-    UPDATE_ORDER_STATUS_ERROR(404,"购物车未找到"),
+    WX_PAY_ORDER_FAIL(500,"微信支付订单失败"),
+    INVALID_SIGN_ERROR(500,"无效的SIGN错误"),
+    INVALID_ORDER_PARAM(500,"无效的订单参数"),
+    UPDATE_ORDER_STATUS_ERROR(404,"更新订单状态错误"),
     CREATE_ORDER_ERROR(500,"创建订单失败"),
     ORDER_NOT_FOUND(404,"购物车未找到"),
-    ORDER_DETAIL_NOT_FOUND(404,"购物车未找到"),
-    ORDER_STATUS_NOT_FOUND(404,"购物车未找到"),
-    ORDER_STATUS_ERROR(404,"购物车未找到"),
-    STOCK_NOT_ENOUGH(404,"购物车未找到"),
-    GOODS_SKU_NOT_FOUND(404,"购物车未找到"),
-    GOODS_STOCK_NOT_FOUND(404,"购物车未找到");
+    ORDER_DETAIL_NOT_FOUND(404,"订单细节没有找到"),
+    ORDER_STATUS_NOT_FOUND(404,"订单状态没有找到"),
+    ORDER_STATUS_ERROR(500,"订单状态错误"),
+    STOCK_NOT_ENOUGH(500,"库存不足"),
+    GOODS_SKU_NOT_FOUND(404,"商品SKU没有找到"),
+    GOODS_STOCK_NOT_FOUND(404,"商品库存没有找到");
 
     //相当于对象, private static final ExceptionEnums ff = new ExceptionEnums(500."价格不能为空");
     //枚举, 是指具有固定实例个数的类(对象是提前创建好的, 默认都是私有的,别人不许用, 只允许自己用)
