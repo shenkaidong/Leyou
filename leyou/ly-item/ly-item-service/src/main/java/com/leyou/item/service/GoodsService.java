@@ -2,6 +2,7 @@ package com.leyou.item.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.leyou.common.dto.CartDTO;
 import com.leyou.common.enums.ExceptionEnum;
 import com.leyou.common.exception.LyException;
 import com.leyou.common.vo.PageResult;
@@ -234,5 +235,46 @@ public class GoodsService {
         // 查询detail
         spu.setSpuDetail(queryDetailById(id));
         return spu;
+    }
+    /**
+     * 购物车中商品列表
+     */
+    public List<Sku> querySkuByIds(List<Long> ids) {
+        // 查询 sku
+        List<Sku> skus = skuMapper.selectByIdList(ids);
+        if (CollectionUtils.isEmpty(skus)) {
+            throw new LyException(ExceptionEnum.GOODS_SKU_NOT_FOUND);
+        }
+        // 填充库存
+        loadStockInSku(ids, skus);
+        return skus;
+    }
+
+    /**
+     * 根据 sku 列表查询库存
+     */
+    private void loadStockInSku(List<Long> ids, List<Sku> skus) {
+        // 查询库存
+        List<Stock> stockList = stockMapper.selectByIdList(ids);
+        if (CollectionUtils.isEmpty(stockList)) {
+            throw new LyException(ExceptionEnum.GOODS_STOCK_NOT_FOUND);
+        }
+        // 将库存转为 map，key 是 skuId，值是库存
+        Map<Long, Integer> stockMap = stockList.stream()
+                .collect(Collectors.toMap(stock -> stock.getSkuId(), stock -> stock.getStock()));
+        // 保存库存到 sku
+        for (Sku sku : skus) {
+            sku.setStock(stockMap.get(sku.getId()));
+        }
+    }
+
+    @Transactional
+    public void decreaseStock(List<CartDTO> carts) {
+        for (CartDTO cart : carts) {
+            int count = stockMapper.decreaseStock(cart.getSkuId(), cart.getNum());
+            if (count != 1) {
+                throw new LyException(ExceptionEnum.STOCK_NOT_ENOUGH);
+            }
+        }
     }
 }

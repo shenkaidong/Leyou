@@ -3,7 +3,7 @@ package com.leyou.search.service;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.leyou.common.enums.ExceptionEnum;
 import com.leyou.common.exception.LyException;
-import com.leyou.common.utlis.JsonUtils;
+import com.leyou.common.utils.JsonUtils;
 
 import com.leyou.common.vo.PageResult;
 import com.leyou.item.pojo.*;

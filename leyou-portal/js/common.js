@@ -518,6 +518,9 @@ axios.defaults.withCredentials = true
 
 // 配置对象
 const ly = leyou = {
+    verifyUser(){
+        return this.http.get("/auth/verify");
+    },
     /**
      * 对encodeURI()编码过的 URI 进行解码。并且获取其中的指定参数
      * @param name
@@ -626,4 +629,5 @@ const ly = leyou = {
      * 将请求参数字符串格式化为js对象
      */
     parse,
+
 }

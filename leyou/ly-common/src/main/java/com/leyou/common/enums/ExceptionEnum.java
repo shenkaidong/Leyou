@@ -38,7 +38,10 @@ public enum ExceptionEnum {
     ORDER_NOT_FOUND(404,"购物车未找到"),
     ORDER_DETAIL_NOT_FOUND(404,"购物车未找到"),
     ORDER_STATUS_NOT_FOUND(404,"购物车未找到"),
-    ORDER_STATUS_ERROR(404,"购物车未找到");
+    ORDER_STATUS_ERROR(404,"购物车未找到"),
+    STOCK_NOT_ENOUGH(404,"购物车未找到"),
+    GOODS_SKU_NOT_FOUND(404,"购物车未找到"),
+    GOODS_STOCK_NOT_FOUND(404,"购物车未找到");
 
     //相当于对象, private static final ExceptionEnums ff = new ExceptionEnums(500."价格不能为空");
     //枚举, 是指具有固定实例个数的类(对象是提前创建好的, 默认都是私有的,别人不许用, 只允许自己用)

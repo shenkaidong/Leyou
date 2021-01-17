@@ -311,7 +311,7 @@
             const token = Cookies.get("LY_TOKEN");
             if (token) {
                 // 有token，曾经登录过，查询用户信息
-                leyou.http.get("/user/" + token)
+                leyou.http.get("/auth/verify")
                     .then(resp => {
                         this.user = resp.data;
                         // 查询订单信息

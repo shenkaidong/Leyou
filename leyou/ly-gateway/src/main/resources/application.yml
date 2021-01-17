@@ -16,7 +16,7 @@ zuul:
     user-service: /user/** # 用户微服务
     auth-service: /auth/** # 授权中心微服务
     cart-service: /cart/** # 购物车微服务
-    order-service: /order/** # 购物车微服务
+    order-service: /order/** # 订单微服务
     upload-service:
       path: /upload/**
       serviceId: upload-service
