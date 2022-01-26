@@ -6,7 +6,7 @@
 
 Microservice Mall Project Introduction
 
-Microservice mall project. This project comes from the free resources of bilibili Dark Horse Programmer Network, Leyou Mall Huge MAC version, and a virtual machine is required in the middle. For more information, please visit the official homepage of Dark Horse Programmer and Learn Valley. I passed the online tutorial, Learn technologies such as Springboot, SpringCloud, Redis, Elasticsearch, Nginx, etc. used in the microservice system.
+Microservice mall project. This project comes from the free resources of bilibili Ithema Programmer Network, Leyou Mall Huge MAC version, and a virtual machine is required in the middle. For more information, please visit the official homepage of Ithema Programmer and Learn Valley. I passed the online tutorial, Learn technologies such as Springboot, SpringCloud, Redis, Elasticsearch, Nginx, etc. used in the microservice system.
 
 This repository contains the following:
 
@@ -251,7 +251,7 @@ Check with Technical Interpretation.
 
 ## Related repositories
 
-- [Dark Horse Programmer](https://github.com/itheima1) — 💌 Dark Horse Programmer github.  
+- [ithema Programmer](https://github.com/itheima1) — 💌 ithema Programmer github.  
 - [Leyou Mall project background](https://github.com/lyj8330328/leyou) — Leyou Mall project background - a very complete version, but slightly different from this version.  
 - [Leyou Mall Project Background and Technical Interpretation](https://github.com/Yirito/leyou) — Leyou Mall Project Technical Interpretation-Another very complete version, but slightly different from this version.  
 - [Leyou Mall Project Notes](https://shidongxu0312.github.io/2019/11/20/%E4%B9%90%E4%BC%98%E5%95%86%E5%9F%8E% E9%A1%B9%E7%9B%AE/) - Leyou Mall project notes - a very complete version, but slightly different from this version.  
