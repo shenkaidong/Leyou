@@ -254,7 +254,6 @@ Check with Technical Interpretation.
 - [ithema Programmer](https://github.com/itheima1) — 💌 ithema Programmer github.  
 - [Leyou Mall project background](https://github.com/lyj8330328/leyou) — Leyou Mall project background - a very complete version, but slightly different from this version.  
 - [Leyou Mall Project Background and Technical Interpretation](https://github.com/Yirito/leyou) — Leyou Mall Project Technical Interpretation-Another very complete version, but slightly different from this version.  
-- [Leyou Mall Project Notes](https://shidongxu0312.github.io/2019/11/20/%E4%B9%90%E4%BC%98%E5%95%86%E5%9F%8E% E9%A1%B9%E7%9B%AE/) - Leyou Mall project notes - a very complete version, but slightly different from this version.  
 
 ## Maintainer
 
