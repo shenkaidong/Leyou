@@ -1,8 +1,8 @@
 # Leyou Mall Readme
 
-[![standard-readme compliant](https://img.shields.io/badge/leyou%20springboot-microservice-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou)
-[![standard-readme compliant](https://img.shields.io/badge/itheima%20官网-黑马程序员-brightgreen.svg?style=flat-square)](http://www.itheima.com/)
-[![standard-readme compliant](https://img.shields.io/badge/boxuegu%20官网-博学谷-brightgreen.svg?style=flat-square)](https://www.boxuegu.com/)
+[![standard-readme compliant](https://img.shields.io/badge/leyou%20springboot-microservice-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou )
+[![standard-readme compliant](https://img.shields.io/badge/itheima%20official website-dark horse programmer-brightgreen.svg?style=flat-square)](http://www.itheima. com/)
+[![standard-readme compliant](https://img.shields.io/badge/boxuegu%20official website-Brightgreen.svg?style=flat-square)](https://www.boxuegu.com /)
 
 Microservice Mall Project Introduction
 
@@ -20,18 +20,17 @@ This repository contains the following:
 
 ## Content list
 
-- [background](#background)
+- [Background](#Background)
 - [install](#install)
-- [Instructions for use](#Instructions for use)
-- [generator](#generator)
-- [badges](#badges)
-- [example](#example)
-- [Related Warehouses](#Related Warehouses)
-- [maintainer](#maintainer)
-- [How to contribute](#how to contribute)
-- [license](#license)
+- [Introduction of Leyou Mall](#Introduction of Leyou Mall)
+- [System Architecture](#System Architecture)
+- [Technical selection](#Technical selection)
+- [Related repositories](#Related repositories)
+- [Maintainer](#Maintainer)
+- [Contributors](#Contributors)
+- [license](#License)
 
-## background
+## Background
 
 `Leyou Mall` was originally a micro-service project I saw from station B. There are a lot of online materials, so I started to learn. But I found a lot of inconvenience in learning. First of all, there are many online versions, and some versions need to be used Virtual machine, some versions only use windows system. And the notes and videos do not match. For example, when writing the product details page. I encountered a lot of unexpected problems. The front-end code of the product details page is very different from the video. There are still errors in the found version. All kinds of software need to be deployed in the Linux system. For example, when installing Redis, because CentOS6.4 has stopped maintenance, the mirror file cannot be used, and the mirror address in CentOS6.4 is required. Elasticsearch During the installation, it is necessary to update the Java version in CentOS and other issues.
 
@@ -257,7 +256,7 @@ The back-end team is divided into 5 groups, each of which is responsible for a p
 - [Leyou Mall Project Background and Technical Interpretation](https://github.com/Yirito/leyou) — Leyou Mall Project Technical Interpretation-Another very complete version, but slightly different from this version.
 - [Leyou Mall Project Notes](https://shidongxu0312.github.io/2019/11/20/%E4%B9%90%E4%BC%98%E5%95%86%E5%9F%8E% E9%A1%B9%E7%9B%AE/) - Leyou Mall project notes - a very complete version, but slightly different from this version.
 
-##Maintainer
+## Maintainer
 
 [@Kaidong Shen](https://github.com/KaidongShen).
 
