@@ -22,9 +22,9 @@ This repository contains the following:
 
 - [Background](#Background)  
 - [install](#install)  
-- [Introduction of Leyou Mall](#Introduction of Leyou Mall)  
-- [System Architecture](#System Architecture)  
-- [Technical selection](#Technical selection)  
+- [Introduction of Leyou Mall](#1. Introduction of Leyou Mall )  
+- [System Architecture](#1.2. System Architecture)  
+- [Technical selection](#1.3. Technical selection)  
 - [Related repositories](#Related repositories)  
 - [Maintainer](#Maintainer)  
 - [Contributors](#Contributors)  
