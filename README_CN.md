@@ -391,4 +391,4 @@ devops
 
 ## 使用许可
 
-[KS](LICENSE) © Kaidong Shen
+[MIT](LICENSE) © Kaidong Shen
