@@ -1,8 +1,8 @@
 # Leyou Mall Readme
 
-[![standard-readme compliant](https://img.shields.io/badge/leyou%20springboot-microservice-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou )  
-[![standard-readme compliant](https://img.shields.io/badge/itheima%20official website-dark horse programmer-brightgreen.svg?style=flat-square)](http://www.itheima. com/)  
-[![standard-readme compliant](https://img.shields.io/badge/boxuegu%20official website-Brightgreen.svg?style=flat-square)](https://www.boxuegu.com /)  
+[![standard-readme compliant](https://img.shields.io/badge/leyou%20springboot-microservice-brightgreen.svg?style=flat-square)](https://github.com/KaidongShen/Leyou)
+[![standard-readme compliant](https://img.shields.io/badge/itheima%20官网-黑马程序员-brightgreen.svg?style=flat-square)](http://www.itheima.com/)
+[![standard-readme compliant](https://img.shields.io/badge/boxuegu%20官网-博学谷-brightgreen.svg?style=flat-square)](https://www.boxuegu.com/)
 
 Microservice Mall Project Introduction
 
@@ -22,7 +22,7 @@ This repository contains the following:
 
 - [Background](#Background)  
 - [install](#install)  
-- [Introduction of Leyou Mall](#1. Introduction of Leyou Mall )  
+- [Introduction of Leyou Mall](#Introduction)  
 - [System Architecture](#1.2. System Architecture)  
 - [Technical selection](#1.3. Technical selection)  
 - [Related repositories](#Related repositories)  
