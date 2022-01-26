@@ -21,11 +21,7 @@ This repository contains the following:
 ## Content list
 
 - [Background](#Background)  
-- [install](#install)  
-- [Introduction of Leyou Mall](#Introduction)  
-- [System Architecture](#1.2. System Architecture)  
-- [Technical selection](#1.3. Technical selection)  
-- [Related repositories](#Related repositories)  
+- [Install](#install)  
 - [Maintainer](#Maintainer)  
 - [Contributors](#Contributors)  
 - [license](#License)  
@@ -248,6 +244,10 @@ Forty people.
 Back-end: less than 30 people, testing: 5 people, front-end: 5 people, operation and maintenance: 3 people, product manager 3 people, project manager: 1 person.  
 
 The back-end team is divided into 5 groups, each of which is responsible for a part of the service.  
+
+## Install
+
+Check with Technical Interpretation.
 
 ## Related repositories
 
